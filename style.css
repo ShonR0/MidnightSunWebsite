@@ -93,6 +93,23 @@ marquee {
     width: 50%;
 }
 
+.marquee-container {
+    width: 20rem;
+    height: 20rem;
+    gap: 5px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.band-image {
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
 /* CSS */
 .button-56 {
     margin-top: 30px;
